@@ -339,6 +339,9 @@ section {
 }
 
 .contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   max-width: 600px;
   margin: 0 auto;
   background-color: #1a1a1a;
